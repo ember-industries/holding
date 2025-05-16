@@ -1,0 +1,40 @@
+html {
+    background: rgb(214, 252, 206);
+    background: radial-gradient(
+        ellipse at -10% -60%,
+        rgb(245, 255, 235) 30%,
+        rgb(214, 252, 206) 60%,
+        rgba(2,  171, 136, 0.8) 100%
+    );
+}
+html, body {
+    overflow: hidden;
+    height: 100%;
+    height: 100%;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    color: rgb(60, 60, 60);
+    text-align: center;
+}
+
+#logo {
+    margin-top: calc(40vw / 8);
+    width: calc(19vw);
+}
+h1 {
+    display: block;
+    font-weight: 100;
+    font-family: 'Creampuff', cursive;
+    margin: 0;
+    padding-bottom: calc(4vw / 8);
+}
+    .red { color: rgb(157, 51, 67) }
+    .green { color: rgb(2, 171, 136); }
+    .space {
+        width: 0.2rem;
+        display: inline-block;
+    }
