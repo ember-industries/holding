@@ -29,8 +29,8 @@ h1 {
 #flame {
     transition: all 0.15s;
     margin-top: calc(40vw / 8);
-    width: calc(19vw);
+    width: calc(15vw);
 }
 #flame:hover { transform: scale(1.02); }
-#ember { width: calc(19vw); }
-#industries { width: calc(29vw); }
+#ember { width: calc(15vw); }
+#industries { width: calc(24vw); }
