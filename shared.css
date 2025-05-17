@@ -16,25 +16,21 @@ html, body {
 
 body {
     margin: 0;
-    font-family: 'Roboto Slab', serif;
-    color: rgb(60, 60, 60);
     text-align: center;
 }
-
-#logo {
+h1 {
+    filter: drop-shadow(0.2rem 0.4rem 0.35rem rgba(0, 0, 0, 0.12));
+    transition: all 0.15s;
+}
+    h1:hover {
+        transform: scale(1.02);
+        filter: drop-shadow(0.2rem 0.4rem 0.35rem rgba(0, 0, 0, 0.18));
+    }
+#flame {
+    transition: all 0.15s;
     margin-top: calc(40vw / 8);
     width: calc(19vw);
 }
-h1 {
-    display: block;
-    font-weight: 100;
-    font-family: 'Creampuff', cursive;
-    margin: 0;
-    padding-bottom: calc(4vw / 8);
-}
-    .red { color: rgb(157, 51, 67) }
-    .green { color: rgb(2, 171, 136); }
-    .space {
-        width: 0.2rem;
-        display: inline-block;
-    }
+#flame:hover { transform: scale(1.02); }
+#ember { width: calc(19vw); }
+#industries { width: calc(29vw); }
