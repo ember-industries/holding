@@ -1,12 +1,4 @@
-html {
-    background: rgb(214, 252, 206);
-    background: radial-gradient(
-        ellipse at -10% -60%,
-        rgb(245, 255, 235) 30%,
-        rgb(214, 252, 206) 60%,
-        rgba(2,  171, 136, 0.8) 100%
-    );
-}
+html { background: rgb(58, 66, 76); }
 html, body {
     overflow: hidden;
     height: 100%;
